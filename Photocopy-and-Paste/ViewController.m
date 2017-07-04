@@ -317,7 +317,7 @@ finishedSavingWithError:(NSError *)error
         NSLog(@"%@", recognizedText);
         if (recognizedText.length == 0) {
             UIAlertView *alert = [[UIAlertView alloc]
-                                  initWithTitle: @"Scan Fail"
+                                  initWithTitle: @"Scan Failed"
                                   message: @"Failed to find text"
                                   delegate: nil
                                   cancelButtonTitle:@"OK"
@@ -325,7 +325,7 @@ finishedSavingWithError:(NSError *)error
             [alert show];
         } else {
             // Spawn an alert with the recognized text
-            self.alertView = [[UIAlertView alloc] initWithTitle:@"Result"
+            self.alertView = [[UIAlertView alloc] initWithTitle:@""
                                                         message:recognizedText
                                                        delegate:self
                                               cancelButtonTitle:@"Cancel"
