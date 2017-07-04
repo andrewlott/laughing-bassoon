@@ -1,7 +1,0 @@
-source 'https://github.com/CocoaPods/Specs.git'
-workspace 'Photocopy-and-Paste'
-xcodeproj 'Photocopy-and-Paste.xcodeproj/'
-
-target 'Photocopy-and-Paste' do
-    pod 'TesseractOCRiOS', '4.0.0'
-end
