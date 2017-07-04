@@ -195,7 +195,10 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     [self dismissViewControllerAnimated:YES completion:nil];
     
     if ([mediaType isEqualToString:(NSString *)kUTTypeImage]) {
-        UIImage *image = info[UIImagePickerControllerOriginalImage];
+        UIImage *image = [info objectForKey:UIImagePickerControllerEditedImage];
+        if(!image) {
+            image = [info objectForKey:UIImagePickerControllerOriginalImage];
+        }
         
         _imageView.image = image;
         if (_newMedia && self.shouldSave)
@@ -236,7 +239,7 @@ finishedSavingWithError:(NSError *)error
         imagePicker.sourceType =
         UIImagePickerControllerSourceTypeCamera;
         imagePicker.mediaTypes = @[(NSString *) kUTTypeImage];
-        imagePicker.allowsEditing = NO;
+        imagePicker.allowsEditing = YES;
         [self presentViewController:imagePicker
                            animated:YES completion:nil];
         _newMedia = YES;
@@ -259,7 +262,7 @@ finishedSavingWithError:(NSError *)error
         imagePicker.sourceType =
         UIImagePickerControllerSourceTypePhotoLibrary;
         imagePicker.mediaTypes = @[(NSString *) kUTTypeImage];
-        imagePicker.allowsEditing = NO;
+        imagePicker.allowsEditing = YES;
         [self presentViewController:imagePicker
                            animated:YES completion:nil];
         _newMedia = NO;
