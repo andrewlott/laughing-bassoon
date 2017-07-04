@@ -312,16 +312,25 @@ finishedSavingWithError:(NSError *)error
         // Fetch the recognized text
         NSString *recognizedText = [tesseract.recognizedText stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         NSLog(@"%@", recognizedText);
-        
-        // Spawn an alert with the recognized text
-        self.alertView = [[UIAlertView alloc] initWithTitle:@"OCR Result"
+        if (recognizedText.length == 0) {
+            UIAlertView *alert = [[UIAlertView alloc]
+                                  initWithTitle: @"Scan Fail"
+                                  message: @"Failed to find text"
+                                  delegate: nil
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+            [alert show];
+        } else {
+            // Spawn an alert with the recognized text
+            self.alertView = [[UIAlertView alloc] initWithTitle:@"Result"
                                                         message:recognizedText
                                                        delegate:self
                                               cancelButtonTitle:@"Cancel"
                                               otherButtonTitles:@"Copy to Clipboard", nil];
-        // UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
-        // pasteboard.string = @"paste me somewhere";
-        [self.alertView show];
+            // UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
+            // pasteboard.string = @"paste me somewhere";
+            [self.alertView show];
+        }
     };
     
     // Display the image to be recognized in the view
@@ -356,7 +365,7 @@ finishedSavingWithError:(NSError *)error
                 UIAlertView *alert = [[UIAlertView alloc]
                                       initWithTitle: @"Download failed"
                                       message: error.description
-                                      delegate: self
+                                      delegate: nil
                                       cancelButtonTitle:@"OK"
                                       otherButtonTitles:nil];
                 [alert show];
