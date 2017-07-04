@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A31B9A81F0B25BA003D26FE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8A31B9A71F0B25BA003D26FE /* tessdata */; };
 		8A31B9AA1F0B8E34003D26FE /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A31B9A91F0B8E34003D26FE /* default.png */; };
+		8A31B9AE1F0BDC9A003D26FE /* backup.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A31B9AD1F0BDC9A003D26FE /* backup.png */; };
 		8AD5C4A11F0A1A89004A3C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5C4A01F0A1A89004A3C9A /* main.m */; };
 		8AD5C4A41F0A1A89004A3C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5C4A31F0A1A89004A3C9A /* AppDelegate.m */; };
 		8AD5C4A71F0A1A89004A3C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5C4A61F0A1A89004A3C9A /* ViewController.m */; };
@@ -24,6 +25,7 @@
 		650516DEBF55A35E9F9113D4 /* libPods-Photocopy-and-Paste.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Photocopy-and-Paste.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A31B9A71F0B25BA003D26FE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 		8A31B9A91F0B8E34003D26FE /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		8A31B9AD1F0BDC9A003D26FE /* backup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backup.png; sourceTree = "<group>"; };
 		8AD5C49C1F0A1A89004A3C9A /* Photocopy-and-Paste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photocopy-and-Paste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD5C4A01F0A1A89004A3C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8AD5C4A21F0A1A89004A3C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		8AD5C49E1F0A1A89004A3C9A /* Photocopy-and-Paste */ = {
 			isa = PBXGroup;
 			children = (
+				8A31B9AD1F0BDC9A003D26FE /* backup.png */,
 				8A31B9A91F0B8E34003D26FE /* default.png */,
 				8A31B9A71F0B25BA003D26FE /* tessdata */,
 				8AD5C4A21F0A1A89004A3C9A /* AppDelegate.h */,
@@ -177,6 +180,7 @@
 				8AD5C4B21F0A1A89004A3C9A /* LaunchScreen.storyboard in Resources */,
 				8A31B9A81F0B25BA003D26FE /* tessdata in Resources */,
 				8AD5C4AF1F0A1A89004A3C9A /* Assets.xcassets in Resources */,
+				8A31B9AE1F0BDC9A003D26FE /* backup.png in Resources */,
 				8AD5C4AA1F0A1A89004A3C9A /* Main.storyboard in Resources */,
 				8A31B9AA1F0B8E34003D26FE /* default.png in Resources */,
 			);
