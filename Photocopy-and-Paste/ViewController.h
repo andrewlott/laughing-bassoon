@@ -13,11 +13,20 @@
 @interface ViewController : UIViewController
 <UIImagePickerControllerDelegate,
 UINavigationControllerDelegate,
+UIPickerViewDataSource,
+UIPickerViewDelegate,
+UIAlertViewDelegate,
 G8TesseractDelegate>
 
 @property BOOL newMedia;
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (strong, nonatomic) IBOutlet UIView *activityIndicatorBackground;
+@property (strong, nonatomic) IBOutlet UIView *scanView;
+@property (strong, nonatomic) IBOutlet UIPickerView *languagePicker;
+
 - (IBAction)useCamera:(id)sender;
 - (IBAction)useCameraRoll:(id)sender;
+-(IBAction)recognizeImage:(id)sender;
 @end
 
