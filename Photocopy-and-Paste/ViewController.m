@@ -167,7 +167,8 @@
 }
 
 - (bool)isLanguageDownloaded:(NSString *)lang {
-    return [[NSFileManager defaultManager] fileExistsAtPath:[self formattedLanguageFileWithPrefix:lang]];
+    return YES;
+//    return [[NSFileManager defaultManager] fileExistsAtPath:[self formattedLanguageFileWithPrefix:lang]];
 }
 
 - (NSString *)formattedLanguageFileWithPrefix: (NSString *)lang {
@@ -277,12 +278,12 @@ finishedSavingWithError:(NSError *)error
     
     // Use the original Tesseract engine mode in performing the recognition
     // (see G8Constants.h) for other engine mode options
-    //operation.tesseract.engineMode = G8OCREngineModeTesseractOnly;
+    operation.tesseract.engineMode = G8OCREngineModeTesseractCubeCombined;
     
     // Let Tesseract automatically segment the page into blocks of text
     // based on its analysis (see G8Constants.h) for other page segmentation
     // mode options
-    operation.tesseract.pageSegmentationMode = G8PageSegmentationModeAutoOnly;
+    operation.tesseract.pageSegmentationMode = G8PageSegmentationModeAuto;
     
     // Optionally limit the time Tesseract should spend performing the
     // recognition
@@ -299,8 +300,7 @@ finishedSavingWithError:(NSError *)error
     //operation.tesseract.charBlacklist = @"56789";
     
     // Set the image on which Tesseract should perform recognition
-    operation.tesseract.image = image;
-    
+    operation.tesseract.image = [image g8_blackAndWhite];
     // Optionally limit the region in the image on which Tesseract should
     // perform recognition to a rectangle
     //operation.tesseract.rect = CGRectMake(20, 20, 100, 100);
