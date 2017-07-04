@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A31B9A81F0B25BA003D26FE /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8A31B9A71F0B25BA003D26FE /* tessdata */; };
+		8AD5C4A11F0A1A89004A3C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5C4A01F0A1A89004A3C9A /* main.m */; };
+		8AD5C4A41F0A1A89004A3C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5C4A31F0A1A89004A3C9A /* AppDelegate.m */; };
+		8AD5C4A71F0A1A89004A3C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5C4A61F0A1A89004A3C9A /* ViewController.m */; };
+		8AD5C4AA1F0A1A89004A3C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD5C4A81F0A1A89004A3C9A /* Main.storyboard */; };
+		8AD5C4AD1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AD5C4AB1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodeld */; };
+		8AD5C4AF1F0A1A89004A3C9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD5C4AE1F0A1A89004A3C9A /* Assets.xcassets */; };
+		8AD5C4B21F0A1A89004A3C9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD5C4B01F0A1A89004A3C9A /* LaunchScreen.storyboard */; };
+		A1BA189C97D36C7D120EBC33 /* libPods-Photocopy-and-Paste.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 650516DEBF55A35E9F9113D4 /* libPods-Photocopy-and-Paste.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		399969AA7F0D012169AA6FC1 /* Pods-Photocopy-and-Paste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photocopy-and-Paste.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Photocopy-and-Paste/Pods-Photocopy-and-Paste.debug.xcconfig"; sourceTree = "<group>"; };
+		650516DEBF55A35E9F9113D4 /* libPods-Photocopy-and-Paste.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Photocopy-and-Paste.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A31B9A71F0B25BA003D26FE /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		8AD5C49C1F0A1A89004A3C9A /* Photocopy-and-Paste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photocopy-and-Paste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AD5C4A01F0A1A89004A3C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AD5C4A21F0A1A89004A3C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8AD5C4A31F0A1A89004A3C9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8AD5C4A51F0A1A89004A3C9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8AD5C4A61F0A1A89004A3C9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AD5C4A91F0A1A89004A3C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AD5C4AC1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photocopy_and_Paste.xcdatamodel; sourceTree = "<group>"; };
+		8AD5C4AE1F0A1A89004A3C9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AD5C4B11F0A1A89004A3C9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AD5C4B31F0A1A89004A3C9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CA7DE8BFE2FE1753983B57 /* Pods-Photocopy-and-Paste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photocopy-and-Paste.release.xcconfig"; path = "Pods/Target Support Files/Pods-Photocopy-and-Paste/Pods-Photocopy-and-Paste.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AD5C4991F0A1A89004A3C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BA189C97D36C7D120EBC33 /* libPods-Photocopy-and-Paste.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A7A376F1F0A54EE00044072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650516DEBF55A35E9F9113D4 /* libPods-Photocopy-and-Paste.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD5C4931F0A1A89004A3C9A = {
+			isa = PBXGroup;
+			children = (
+				8A7A376F1F0A54EE00044072 /* Frameworks */,
+				8AD5C49E1F0A1A89004A3C9A /* Photocopy-and-Paste */,
+				8AD5C49D1F0A1A89004A3C9A /* Products */,
+				92153D10C2919F395410D5CE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8AD5C49D1F0A1A89004A3C9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AD5C49C1F0A1A89004A3C9A /* Photocopy-and-Paste.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AD5C49E1F0A1A89004A3C9A /* Photocopy-and-Paste */ = {
+			isa = PBXGroup;
+			children = (
+				8A31B9A71F0B25BA003D26FE /* tessdata */,
+				8AD5C4A21F0A1A89004A3C9A /* AppDelegate.h */,
+				8AD5C4A31F0A1A89004A3C9A /* AppDelegate.m */,
+				8AD5C4A51F0A1A89004A3C9A /* ViewController.h */,
+				8AD5C4A61F0A1A89004A3C9A /* ViewController.m */,
+				8AD5C4A81F0A1A89004A3C9A /* Main.storyboard */,
+				8AD5C4AE1F0A1A89004A3C9A /* Assets.xcassets */,
+				8AD5C4B01F0A1A89004A3C9A /* LaunchScreen.storyboard */,
+				8AD5C4B31F0A1A89004A3C9A /* Info.plist */,
+				8AD5C4AB1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodeld */,
+				8AD5C49F1F0A1A89004A3C9A /* Supporting Files */,
+			);
+			path = "Photocopy-and-Paste";
+			sourceTree = "<group>";
+		};
+		8AD5C49F1F0A1A89004A3C9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AD5C4A01F0A1A89004A3C9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92153D10C2919F395410D5CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				399969AA7F0D012169AA6FC1 /* Pods-Photocopy-and-Paste.debug.xcconfig */,
+				D5CA7DE8BFE2FE1753983B57 /* Pods-Photocopy-and-Paste.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AD5C49B1F0A1A89004A3C9A /* Photocopy-and-Paste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AD5C4B61F0A1A89004A3C9A /* Build configuration list for PBXNativeTarget "Photocopy-and-Paste" */;
+			buildPhases = (
+				E84D51F6D68C87C3C0538567 /* [CP] Check Pods Manifest.lock */,
+				8AD5C4981F0A1A89004A3C9A /* Sources */,
+				8AD5C4991F0A1A89004A3C9A /* Frameworks */,
+				8AD5C49A1F0A1A89004A3C9A /* Resources */,
+				F3095E3D819FE2C88F2B1C51 /* [CP] Embed Pods Frameworks */,
+				5C2735533DFB6B7F028549A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photocopy-and-Paste";
+			productName = "Photocopy-and-Paste";
+			productReference = 8AD5C49C1F0A1A89004A3C9A /* Photocopy-and-Paste.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AD5C4941F0A1A89004A3C9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andrew Lott";
+				TargetAttributes = {
+					8AD5C49B1F0A1A89004A3C9A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZFG9QUPZU5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8AD5C4971F0A1A89004A3C9A /* Build configuration list for PBXProject "Photocopy-and-Paste" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AD5C4931F0A1A89004A3C9A;
+			productRefGroup = 8AD5C49D1F0A1A89004A3C9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AD5C49B1F0A1A89004A3C9A /* Photocopy-and-Paste */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AD5C49A1F0A1A89004A3C9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD5C4B21F0A1A89004A3C9A /* LaunchScreen.storyboard in Resources */,
+				8A31B9A81F0B25BA003D26FE /* tessdata in Resources */,
+				8AD5C4AF1F0A1A89004A3C9A /* Assets.xcassets in Resources */,
+				8AD5C4AA1F0A1A89004A3C9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C2735533DFB6B7F028549A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photocopy-and-Paste/Pods-Photocopy-and-Paste-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84D51F6D68C87C3C0538567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3095E3D819FE2C88F2B1C51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Photocopy-and-Paste/Pods-Photocopy-and-Paste-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AD5C4981F0A1A89004A3C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AD5C4A71F0A1A89004A3C9A /* ViewController.m in Sources */,
+				8AD5C4A41F0A1A89004A3C9A /* AppDelegate.m in Sources */,
+				8AD5C4AD1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodeld in Sources */,
+				8AD5C4A11F0A1A89004A3C9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8AD5C4A81F0A1A89004A3C9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AD5C4A91F0A1A89004A3C9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AD5C4B01F0A1A89004A3C9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AD5C4B11F0A1A89004A3C9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AD5C4B41F0A1A89004A3C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AD5C4B51F0A1A89004A3C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AD5C4B71F0A1A89004A3C9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399969AA7F0D012169AA6FC1 /* Pods-Photocopy-and-Paste.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZFG9QUPZU5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Photocopy-and-Paste",
+				);
+				INFOPLIST_FILE = "Photocopy-and-Paste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-weak_library",
+					"/usr/lib/libstdc++.6.0.9.dylib",
+					"-l\"TesseractOCRiOS\"",
+					"-l\"lept\"",
+					"-l\"stdc++\"",
+					"-l\"tesseract_all\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewlott.Photocopy-and-Paste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AD5C4B81F0A1A89004A3C9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CA7DE8BFE2FE1753983B57 /* Pods-Photocopy-and-Paste.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZFG9QUPZU5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Photocopy-and-Paste",
+				);
+				INFOPLIST_FILE = "Photocopy-and-Paste/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-weak_library",
+					"/usr/lib/libstdc++.6.0.9.dylib",
+					"-l\"TesseractOCRiOS\"",
+					"-l\"lept\"",
+					"-l\"stdc++\"",
+					"-l\"tesseract_all\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "andrewlott.Photocopy-and-Paste";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AD5C4971F0A1A89004A3C9A /* Build configuration list for PBXProject "Photocopy-and-Paste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD5C4B41F0A1A89004A3C9A /* Debug */,
+				8AD5C4B51F0A1A89004A3C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AD5C4B61F0A1A89004A3C9A /* Build configuration list for PBXNativeTarget "Photocopy-and-Paste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD5C4B71F0A1A89004A3C9A /* Debug */,
+				8AD5C4B81F0A1A89004A3C9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AD5C4AB1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AD5C4AC1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodel */,
+			);
+			currentVersion = 8AD5C4AC1F0A1A89004A3C9A /* Photocopy_and_Paste.xcdatamodel */;
+			path = Photocopy_and_Paste.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AD5C4941F0A1A89004A3C9A /* Project object */;
+}
