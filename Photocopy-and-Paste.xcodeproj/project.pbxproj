@@ -368,7 +368,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 399969AA7F0D012169AA6FC1 /* Pods-Photocopy-and-Paste.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = ZFG9QUPZU5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -401,7 +401,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5CA7DE8BFE2FE1753983B57 /* Pods-Photocopy-and-Paste.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = ZFG9QUPZU5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (

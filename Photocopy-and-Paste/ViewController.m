@@ -167,8 +167,7 @@
 }
 
 - (bool)isLanguageDownloaded:(NSString *)lang {
-    return YES;
-//    return [[NSFileManager defaultManager] fileExistsAtPath:[self formattedLanguageFileWithPrefix:lang]];
+    return [[NSFileManager defaultManager] fileExistsAtPath:[self formattedLanguageFileWithPrefix:lang]];
 }
 
 - (NSString *)formattedLanguageFileWithPrefix: (NSString *)lang {
@@ -269,9 +268,14 @@ finishedSavingWithError:(NSError *)error
     }
 }
 
+-(void)recognizeImageWithTesseract {
+    [self recognizeImageWithTesseract:self.imageView.image language:self.languages[@"English"]];
+}
+
 -(void)recognizeImageWithTesseract:(UIImage *)image language:(NSString *)lang
 {
     [self startLoadingAnimation];
+
     // Create a new `G8RecognitionOperation` to perform the OCR asynchronously
     // It is assumed that there is a .traineddata file for the language pack
     // you want Tesseract to use in the "tessdata" folder in the root of the
@@ -357,9 +361,14 @@ finishedSavingWithError:(NSError *)error
     NSInteger row = [self.languagePicker selectedRowInComponent:0];
     NSString *key = [self.languages.allKeys sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)][row];
     NSString *lang = self.languages[key];
-    
+    NSLog(@"Scanning...");
+/*
     if ([self isLanguageDownloaded:lang]) {
-        [self recognizeImageWithTesseract:self.imageView.image language:lang];
+ */
+    [self startLoadingAnimation];
+    [self performSelector:@selector(recognizeImageWithTesseract) withObject:nil afterDelay:0.0f];
+//        [self recognizeImageWithTesseract:self.imageView.image language:lang];
+/*
     } else {
         [self startLoadingAnimation];
         [self downloadLanguage:lang responseHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
@@ -384,6 +393,7 @@ finishedSavingWithError:(NSError *)error
             }
         }];
     }
+ */
 }
 
 -(void) highlightText:(NSString *)srcTxt inTextView:(UITextView *)txtView {
